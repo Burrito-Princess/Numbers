@@ -109,9 +109,9 @@ var t = 0;
 function incementSeconds() {
     t++; 
     let cps = press / t;
-    if (tf == true){
-        document.getElementById("cps").innerHTML = cps;
-    };
+    // if (tf == true){
+    //     document.getElementById("cps").innerHTML = cps;
+    // };
 }
 
 function resett() {
@@ -147,6 +147,7 @@ function tobinary_plus(){
     };
     document.getElementById("binary").innerHTML= bi_string;
     makeobj();
+    
 };
 
 function inputfield(){
@@ -188,4 +189,13 @@ function generatetable(){
     
 };
 
+
+/////////////////3x+1/////////////////////
+
+function formula(){
+    let x = clicks;
+    if (x%2 == 0){
+        
+    }
+}
    
